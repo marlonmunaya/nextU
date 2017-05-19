@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<meta name="author" content="Marlon Munaya">
+		<meta name="keywords" content="html,ccs,xml,javascript"> 
+		<meta name="description" content="Proyecto Final">
+	<title>HOJA DE VIDA - EDUCACION</title>
+
+</head>
+<body>
+<header>
+	<svg   width="220px" height="150px" viewBox="0 0 1200 400"  >
+		<image xlink:href="svg/logo1.svg" width="1200px" height="1300px" ></image>
+    </svg>
+	<h1 >RESUMEN CURRICULAR</h1>
+	<H2>DATOS PERSONALES</H2>
+	<UL>
+		<li><strong>NOMBRE:</strong>Marlon Gabriel Munaya Lurita</li>
+		<li><strong>EDAD  :</strong>  24 años  </li>
+		<LI><STRONG>LUGAR DE NAC: </STRONG>LIMA, Los Olivos  </LI> 
+		<li><strong>FECHA DE NAC:</strong> 1992 </li>
+	</UL>
+</header>
+<navbar>
+	<a href="index.html" >Inicio</a>
+	|
+	<a href="educacion.html">Educacion</a>
+	|
+	<a href="experiencia.html">Experiencia</a>
+
+</navbar>
+<section>
+	<h2>EDUCACION</h2>
+	<table border="1" cellpadding="10" cellspacing="0">
+		<thead>
+			<tr>
+				<th>Curso</th>
+				<th>Año</th>
+				<th>Institucion</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Instrumentacion</td>
+				<td>2015</td>
+				<td>TECSUP</td>
+				<td>Lima</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>Cableado</td>
+				<td>2016</td>
+				<td>INICTEL</td>
+				<td>Lima</td>
+				<td>Si</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>Agregar Estudios</h2>
+	<form autocomplete="on" name="formulario">
+		<p>
+			<label> <strong>Año:</strong> </label>
+			<select required>
+				<option value="1">2011</option>
+				<option value="1">2012</option>
+				<option value="1">2013</option>
+				<option value="1">2014</option>
+				<option value="1">2015</option>
+				<option value="1">2016</option>
+				<option value="1">2017</option>
+			</select>
+		</p>
+		<p>
+			<label><strong>Institución: </strong> </label>
+			<input type="text" name="institucion" style="width:200px;height:15px" required>
+		</p>
+		<p>	
+			<label><strong>Lugar: </strong> </label>
+			<textarea name="coment" cols="31" rows="4" required></textarea>
+		</p>
+		<p >
+			<label><strong>¿Culminó? </strong> </label>
+			<input type="radio" name="genero" required>Si
+			<input type="radio" name="genero" required>No
+		</p>
+		<p>
+			<input type="submit" name="Enviar">
+		</p>
+	</form>
+</section>
+<footer>
+	<p>Derechos Reservados</p>
+	<ul>
+		<li><strong>Tlf:</strong> 956567145 </li>
+		<li><strong>Email:</strong><a href="mailto:marlonmunaya@hotmail.com">marlonmunaya@hotmail.com</a> </li>
+	</ul>
+</footer>
+</body>
+</html>
