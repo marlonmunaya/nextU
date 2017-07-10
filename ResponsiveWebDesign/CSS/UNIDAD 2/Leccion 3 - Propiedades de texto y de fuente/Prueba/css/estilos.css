@@ -1,0 +1,32 @@
+@font-face{
+	font-family: 'FuenteLato';
+	src: url('../fuentes/Lato-Black.ttf');
+}
+body{
+	margin: 20px;
+	font-family: Lora;
+}
+
+.resaltado{
+	background-color: yellow;
+	color: black;
+}
+
+#menu-principal{
+	padding: 10px 0px;
+	font-family: fuenteLato;
+	font-style: italic;
+}
+
+footer{
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1.titulo{
+	background-color: aliceblue;
+	text-align: center;
+	padding: 10px;
+	font-variant: small-caps;
+}

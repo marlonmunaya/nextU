@@ -1,0 +1,5 @@
+open type  OTF
+web open font format WOFF
+opensans Google fonts
+
+http://ftp.gnu.org/gnu/freefont/
