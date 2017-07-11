@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>condiciones y ciclos</title>
+</head>
+<body>
+
+<h1>For</h1>
+<p id="salida"></p>
+
+<p id="prduc"></p>
+
+<button onclick="mostrar()">Mostrar Equipos</button>
+<button onclick="producto()">Mostrar producto</button>
+
+</body>
+	<script type="text/javascript">
+	
+	function mostrar(){
+		var texto= "Equipos: <br>";
+		var equipos=["Liverpool","Barcelona","juventus","Madrid"];
+		for (var i = 0; i < equipos.length; i++) {
+			texto+=equipos[i]+"<br>";
+		}
+	document.getElementById('salida').innerHTML=texto;	
+	}
+	
+	function producto(){
+		var text= "Producto: <br>";
+		var pro={codigo:"0001",nombre:"Barcelona",precio:"juventus"};
+		var x;
+		for (x in pro) {
+			text+=pro[x]+"<br>";
+		}
+	document.getElementById('prduc').innerHTML=text;	
+	}
+
+
+
+
+
+</script>
+</html>
