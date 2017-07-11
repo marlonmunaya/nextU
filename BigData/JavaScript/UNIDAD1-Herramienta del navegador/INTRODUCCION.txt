@@ -1,0 +1,32 @@
+	
+	Unidad 1: Herramientas del navegador, tiempo de ejecución, .js y etiqueta script 
+	¡Aquí comienza la Unidad 1: Herramientas del navegador, tiempo de ejecución, .js y etiqueta script!
+
+
+	Los objetivos del Programa que corresponden a esta Unidad son:
+		Aplicar interactividad a un sitio web a partir de JavaScript.
+		Utilizar frameworks y librerías de JavaScript apropiadamente.
+		Utilizar las estructuras de programación necesarias para gestionar sitios web dinámicos.
+
+	Los objetivos del Curso 4 que corresponden a esta Unidad son:
+		Entender qué es JavaScript y cómo funciona.
+		Depurar código JavaScript con el navegador.
+
+	
+
+	Historia de JavaScript
+	
+	avaScript fue creado por Brenda Eich de Netscape quien inicialmente lo llamo´ ‘Mocha’, ma´s tarde recibio´ el nombre de LiveScript
+	para finalmente consolidarse como JavaScript.
+
+	Actualmente JS es una marca registrada de Oracle y fue llamada JavaScript debido a que JAVA, un lenguaje de programacio´n 
+	muy popular de la misma compan~i´a, estaba en una e´poca bastan- te brillante, Oracle decidio´ entonces llamarlo JavaScript como una estrategia para venderlo mejor.
+
+	Cuando JS estaba en una buena posicio´n en el mercado, Microsoft decidio´ sacar su propia versio´n y lo llamo´ JScript,
+	el cual fue lanzado en la version 3.0 de Internet Explorer. Aunque era una especificacio´n muy parecida a JavaScript, este era totalmente incompatible.
+	
+	En 1997 los autores propusieron a JavaScript para que fuera considerado como un esta´ndar ante la European Computer Manufacturers Association (ECMA)
+	y poco despue´s un estandar ISO.
+
+	En la actualidad existen miles de tecnologi´as y herramientas basadas en JavaScript,
+	las cuales facilitan tareas y ofrecen muchas soluciones pra´cticas al di´a a di´a de un desarrollador.

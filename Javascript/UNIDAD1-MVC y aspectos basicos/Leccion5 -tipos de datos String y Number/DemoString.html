@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Objeto String</title>
+</head>
+
+<body>
+
+<h1>Strings</h1>
+<p id="s1"></p>
+<p id="s2"></p>
+<p id="s3"></p>
+<p id="s4"></p>
+
+<h1>strings metodos</h1>
+
+<p id="s5"></p>
+<p id="s6"></p>
+<p id="s7"></p>
+<p id="s8"></p>
+<p id="s9"></p>
+<p id="s10"></p>
+<p id="s11"></p>
+<p id="s12"></p>
+<p id="s13"></p>
+
+
+</body>
+
+<script type="text/javascript">
+
+var saludo1 = "saludo con comillas dobles!!";
+var saludo2 = 'saludo con comillas dobles!!';
+
+var tamanio = saludo2.length;
+var objeto = new String("objeto String");
+
+document.getElementById('s1').innerHTML= saludo1;
+document.getElementById('s2').innerHTML= saludo2;
+document.getElementById('s3').innerHTML= tamanio;
+document.getElementById('s4').innerHTML= objeto;
+
+
+//metodos String
+
+var string1 = "Esta es";
+var string2 = "una cadena de";
+var string3 = " texto concatenado";
+var stringconca =  string1.concat(string2,string3);
+
+document.getElementById('s5').innerHTML= stringconca;
+
+var mensaje1 = "Programando en .js"
+document.getElementById('s6').innerHTML= mensaje1;
+
+var mensaje2 = mensaje1.replace(".js",".net");
+document.getElementById('s7').innerHTML= mensaje2;
+
+var mensaje3 = "Luchar, reir y vivir; esa es la clave";
+document.getElementById("s8").innerHTML=mensaje3;
+
+document.getElementById("s9").innerHTML=mensaje3.substring(8,20);
+
+var mensaje4 ="EL IGNORANTE AFIRMA, EL SABIO DUDA Y REFLEXIONA";
+document.getElementById("s10").innerHTML=mensaje4.toLowerCase();
+
+document.getElementById("s11").innerHTML=mensaje3.toUpperCase();
+
+
+
+
+
+
+</script>
+
+</html>

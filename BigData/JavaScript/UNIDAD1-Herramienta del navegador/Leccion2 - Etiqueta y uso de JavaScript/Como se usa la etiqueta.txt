@@ -1,0 +1,20 @@
+
+
+	Como vimos en la leccio´n anterior, aparecio´ una nueva etiqueta que usamos para agregar
+	un poco de co´digo JavaScript y generar interaccio´n en nuestra pa´gina web.
+	Existen varias formas de usar el lenguaje JavaScript dentro de una pa´gina web, al igual
+	que con CSS, podemos hacer- lo directamente en la definicio´n del HTML o vinculando un 
+	archivo externo.Como vimos en la leccio´n anterior, aparecio´ una nueva etiqueta que usamos 
+	para agregar un poco de co´digo JavaScript y generar interac- cio´n en nuestra pa´gina web.
+	Existen varias formas de usar el lenguaje JavaScript dentro de una pa´gina web, al igual
+	que con CSS, podemos hacerlo directamente en la definicio´n del HTML o vinculando un archivo externo.
+	La sintaxis de la etiqueta script es la siguiente:
+
+	Esto es debido a que con el lenguaje JavaScript se manipulan los elementos del DOM, y si agregamos
+	 el co´digo antes de que el motor de render cree nuestros elementos, JavaScript no encontrara´ los objetos
+	 que queremos manipular y por lo tanto se generara´ un error.Esta forma de incluir co´digo JavaScript dentro
+	 del HTML solo es recomendada cuando vamos a realizar pequen~as acciones o el co´digo no es muy extenso,
+	 ya que si incluimos todo el co´digo junto con el HTML esto dari´a como resultado un documento dificil de
+	 comprender, dificil de mantener y muy poco escalable a futuro, esto quiere decir que sera´ muy dificil
+	 que en un futuro el proyecto pueda crecer sin tener complicaciones. En el pro´ximo tema veremos co´mo incluir
+	 un archivo externo tipo JavaScript dentro de nuestro documento HTML para tener una mejor organizacio´n del proyecto.

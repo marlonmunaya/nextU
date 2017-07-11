@@ -1,0 +1,28 @@
+@font-face{
+	font-family: 'FreeSerif';
+	src: url('FreeSerif.otf');
+}
+h1{
+	font-family: "Times New Roman", Georgia, serif;
+	font-size: 2em;
+	font-weight: bold;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+p{
+	font-family: courier, "Lucia Console", monospace;
+	font-size: 1.2em;
+	text-align: justify;
+	text-indent: 1cm;
+	word-spacing: 31px;
+	color: orange;
+
+}
+h2{
+	font-family: 'FreeSerif';
+}
+h3{
+	font-family: 'Pangolin';
+	font-style: none;
+}

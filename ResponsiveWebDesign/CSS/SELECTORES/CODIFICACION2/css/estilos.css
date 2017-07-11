@@ -1,0 +1,17 @@
+#area{
+	width: 199px;
+	height: 51px
+}
+body{
+	margin: 31px;
+	font-family: verdana;
+}
+input[name=email]{
+	background-color: #1535FA;
+}
+p:nth-child(3) {
+	color: red;
+}
+p,label{
+	font-family: tahoma;
+}

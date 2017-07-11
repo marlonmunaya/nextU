@@ -1,0 +1,14 @@
+
+
+
+
+En este curso, llamado JavaScript, aprenderás a usar un lenguaje enfocado en la interacción con el DOM,
+ para programar con lógica tus aplicaciones y construir páginas web mucho más dinámicas.
+ Aprenderás cómo manipular y aplicar todo tipo de métodos y animaciones sobre los elementos HTML5.
+
+	OBJETIVOS:
+	Entender qué es JavaScript y cómo funciona.
+	Aprender los fundamentos básicos de programación.
+	Conocer y emplear los selectores básicos JavaScript.
+	Depurar código JavaScript con el navegador.
+	Aprender a usar el formato JSON y las APIs de HTML5 para agregar mayor interactividad.

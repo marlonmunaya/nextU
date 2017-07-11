@@ -1,0 +1,34 @@
+body{
+	font-family: verdana;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px
+}
+.resaltado{
+	background-color: yellow;
+
+}
+#menu-principal{
+	padding: 50px ;
+}
+h1.titulo{
+	background-color: aliceblue;
+	text-align: center;
+	
+}
+footer{
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+ul li{
+	list-style-type: square;
+}
+article>h1{
+	color: blue;
+}
+
+h1 + ul,ol{
+	color: #C29898;
+}
