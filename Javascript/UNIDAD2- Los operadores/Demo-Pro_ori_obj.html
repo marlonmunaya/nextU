@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h1>POO JavaScript</h1>
+
+<p id="saludo1"></p>
+<p id="saludo2"></p>
+<button onclick="funcion1()">saludo1</button>
+<button onclick="funcion2()">saludo2</button>
+
+<h2>Producto en Venta</h2>
+
+
+<p id="productos"></p>
+<button onclick="funcion3()">Mostrar Productos</button>
+
+<h2>Mis notas son</h2>
+<p id="promedio"></p>
+<button onclick="funcion4()">mostrar promedio</button>
+
+</body>
+<script type="text/javascript">
+	
+function persona(nombre, edad, ciudad, email){//definiendo la clase persona
+		this.nombre=nombre;
+		this.edad=edad;
+		this.ciudad=ciudad;
+		this.email=email;
+
+this.saludar=function(){
+	document.getElementById('saludo1').innerHTML="mi nombre es"+ this.nombre +" y mi edad es " + this.edad;
+};
+
+}
+
+var person= new persona("carlos","37","bogota","carlos@hotmail.com");
+
+function funcion1(){
+person.saludar();
+}
+
+function funcion2(argument){
+	document.getElementById("saludo2").innerHTML="soy de "+person.ciudad+" y mi correo es "+person.email;
+}
+
+function Producto(codigo,nombre,cantidad,precio){
+	this.codigo=codigo;
+	this.nombre=nombre;
+	this.cantidad=cantidad;
+	this.precio=precio;
+	this.mostar=function(){
+		document.getElementById("productos").innerHTML=this.codigo+"<br>"+this.nombre+"<br>"+this.cantidad+"<br>"+this.precio;
+	};
+}
+var producto= new Producto("001","zapatilla",36,5666);
+function funcion3(){
+producto.mostar();	
+}
+
+function Promedio(codigo,nombre,nota1,nota2){
+	this.codigo=codigo;
+	this.nombre=nombre;
+	this.nota1=nota1;
+	this.nota2=nota2;
+	this.promedio=function(){document.getElementById("promedio").innerHTML="el promedio es: "+(this.nota1+this.nota2)/2 };
+}
+var promedio= new Promedio("003","carlos",15,20);
+
+function funcion4(){
+	promedio.promedio();
+}
+
+
+
+</script>
+</html>

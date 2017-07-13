@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1>TRY CATCH</h1>
+
+	<button onclick="uno()">Ejecutar funcion UNO</button>
+	<button onclick="dos()">Ejecutar funcion DOS</button>
+
+
+	<h1>THROW</h1>
+
+	<button onclick="tres()">Ejecutar funcion TRES</button>
+	<button onclick="cuatro()">Ejecutar funcion CUATRO</button>
+
+
+	<P id="mensaje"></P>
+
+</body>
+<script type="text/javascript">
+	
+function uno(){
+
+	try{
+		var numero1= 55;
+		var numero = numero1 + numero2;
+		}catch(error){
+					alert("Existe error"+"-"+error.message );
+					}
+				}
+
+function dos(){
+
+		try{
+		var persona= null;
+		var nombre = persona.nombre;
+		}catch(error){
+					alert("Existe error"+"-"+error.message );
+					}finally{
+					document.getElementById('mensaje').innerHTML="seguimos pese al error";
+				}
+
+				}
+function tres(){
+
+		try{
+		var mensaje= "Esto es un mensaje desde el javascript";//codigo a validar por try
+		if (isNaN(parseInt(mensaje))) {
+			throw "Parametro pasado al metodo parseInt no es un numero"
+		}
+		}catch(error){
+					alert("Existe error"+"-"+error );
+					}
+				}
+
+function cuatro(){
+
+		try{
+		var res =45/0;//codigo a validar por try
+		if (res==Infinity) {
+			throw "Division entre cero no es valido"
+		}
+		}catch(error){
+					alert("Existe error"+"-"+error);
+					}
+				}
+
+
+</script>
+
+</html>
