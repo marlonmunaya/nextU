@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Numeros pares del 1 al 100</title>
+</head>
+<body>
+
+<h1>Numeros pares del 1 al 100</h1>
+<p id="pares"></p>
+<button onclick="pares()">visualizar numeros pares </button>
+
+<h1>Numeros impares del 1 al 100</h1>
+<p id="impares"></p>
+<button onclick="impares()">visualizar numeros impares </button>
+
+<h1>Definir Arreglos</h1>
+<p id="arreglo"></p>
+<button onclick="arreglo()">visualizar Arreglo </button>
+</body>
+<script type="text/javascript">
+	
+function pares(){
+	texto = "";
+	for (var i = 0; i <= 100; i++) {
+		if (i%2==0) {
+			texto+=i+"<br>";
+		}
+	
+	}
+	document.getElementById('pares').innerHTML=texto;
+}
+
+function impares(){
+	var contador=1;
+	var conta="";
+	while (contador<=100){
+			if (contador%2==1) {
+			conta+=contador+"<br>";
+			}
+			contador++;
+			}
+	document.getElementById("impares").innerHTML=conta;
+	}
+
+function arreglo(){
+	var equipo=["Liverpool","Barcelona","juventus","Madrid"];
+	var cantidad= equipo.length;
+	mostrar="";
+	var contador=1;
+	do {
+		mostrar+=equipo[contador]+"<br>";
+		contador++;
+	}
+	while(contador<=cantidad)
+document.getElementById("arreglo").innerHTML=mostrar;
+}
+
+
+</script>
+</html>

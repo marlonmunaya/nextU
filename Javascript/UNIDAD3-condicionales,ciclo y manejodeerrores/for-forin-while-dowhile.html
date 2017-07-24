@@ -10,8 +10,19 @@
 
 <p id="prduc"></p>
 
-<button onclick="mostrar()">Mostrar Equipos</button>
-<button onclick="producto()">Mostrar producto</button>
+
+
+
+
+<button onclick="mostrar()">USO DE FOR - Mostrar Equipos</button>
+<button onclick="producto()">USO DE FOR/IN - Mostrar producto</button>
+<h1>Iniciar Conteo</h1>
+<p id="conteo"></p>
+<button onclick="contador()">USO DE WHILE - Mostrar contador</button>
+
+<h1>Iniciar Conteo  CON DO WHILE</h1>
+<p id="do"></p>
+<button onclick="dowhile()">USO DE DO WHILE - Mostrar contador</button>
 
 </body>
 	<script type="text/javascript">
@@ -36,8 +47,24 @@
 	}
 
 
+	function contador(){
+	var contador=1;
+	var conta="";
+	while (contador<=50){
+		conta+=contador+"<br>";
+		contador++;
+	}
+	document.getElementById("conteo").innerHTML=conta;
+	}
 
-
-
+	function dowhile(){
+	var cuenta=50;
+	var cuen="";
+	do {
+		cuen+=cuenta+"<br>";
+		cuenta++;
+	} while(cuenta<=100)
+	document.getElementById("do").innerHTML=cuen;
+	}
 </script>
 </html>
