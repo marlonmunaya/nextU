@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<script type="text/javascript" src="js/mijson.js" ></script>
+</head>
+<body>
+
+	<h1>CONVERTIR UNA CADENA EN FORMATO JSON</h1>
+	<p id="texto"></p>
+
+</body>
+
+<script type="text/javascript">
+	
+
+var jsontext='{"empresas":['+
+'{"nit":"6545","nombre":"ONS","telefono":"68168541355","email":"ons@hotmail.com" },'+
+'{"nit":"8654","nombre":"EISSA","telefono":"651318888","email":"eissa@hotmail.com" },'+
+'{"nit":"1845","nombre":"PPA","telefono":"711155558","email":"ppa@hotmail.com" }'+']}';
+
+var jsobj= JSON.parse(jsontext);
+
+
+
+
+function leerJSON(json){
+
+	var res="--------------EMPRESAS------------<br>";
+	var o;
+	for (o = 0; o < json.empresas.length; o++) {
+		res+=" nit: "+json.empresas[o].nit;
+	
+	}
+	document.getElementById('texto').innerHTML=res;
+//alert(res);
+}
+
+leerJSON(jsobj);
+
+</script>
+</html>

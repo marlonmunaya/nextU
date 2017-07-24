@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OnChange</title>
+</head>
+<body>
+Escriba su direccion
+<input type="text" id="mayuscula" onchange="cambio()" >
+<p>las letras se cambiaran automaticamente a mayuscula</p>
+
+
+</body>
+<script type="text/javascript">
+	function cambio(){
+		var x=document.getElementById('mayuscula');
+		x.value=x.value.toUpperCase();
+	}	
+
+
+</script>
+
+
+</html>

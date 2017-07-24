@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos</title>
+</head>
+<body onload="load()">
+
+	<h1>InformacionPersonal</h1>
+		
+		<form onreset="resetea()">
+		Nombres: <input type="text" id="nombre" onchange="upper()" > <br>
+		Apellidos: <input type="text" > <br>
+		Fecha de Nacimiento <input type="date" > <br>
+	
+	
+	<h1>InformacionAcademica</h1>
+
+		Universidad: <input type="text" ><br>
+		Observaciones: <br>
+		<textarea onselect="Select()">observaciones</textarea><br>
+		<input type="submit" value="Enviar" onclick="enviar()">
+		<input type="reset">
+
+		</form>
+</body>
+<script type="text/javascript">
+	
+	function resetea(){
+		alert("Ud borrara todo lo escrito");
+	}
+	function load(){
+		alert("bienvenido");
+	}
+	function enviar(){
+		alert("sus datos han sido guardado correctamnete");
+	}
+	function Select(){
+		alert("el texto ha sido seleccionado");
+	}
+	function upper(){
+		var text=document.getElementById('nombre');
+		text.value=text.value.toUpperCase();
+	}
+
+</script>
+</html>

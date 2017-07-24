@@ -1,0 +1,50 @@
+#div{
+		background: #B3B3B3;
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	width: 20%;
+	height: 70%;
+	padding: 10px 10px 10px 10px; 
+}
+
+#header{
+	background: #567F95;
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	width: 20%;
+	height: 5%;
+	padding: 10px 10px 10px 10px; 
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#operacion{
+	border-radius: 5px;
+	background-color: #727DAC; 
+	color: #FFFFFF;
+}
+
+#num{
+	border-radius: 5px;
+	border-color: #DCC2C2;
+	background-color: #885151;
+}
+#num1, #num2{
+	border-radius: 5px;
+	width: 90px;
+	border-color: #DCC2C2;
+	background-color: #885151;
+}
+#tabla{
+	font-size:13px;
+	font-family: Arial;
+	color: #FFFFFF;
+}
+
+#texto{
+	
+	border-color: #DCC2C2;
+	background-color: #885151;
+}
