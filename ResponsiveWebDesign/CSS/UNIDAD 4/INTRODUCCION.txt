@@ -1,0 +1,11 @@
+En esta unidad conoceremos las nuevas funcionalidades y tendencias de interacción que nos ofrece CSS3 para construir atractivos sitios web.
+
+Unidad 4: CSS3 - Interacciones 
+¡En esta Unidad, prepárate para aprender todo lo relacionado a CSS3 - Interacciones!
+
+
+El objetivo del Programa que corresponde a esta Unidad es: 
+Emplear las hojas de estilo en cascada para el desarrollo de sitios web. 
+Los objetivos del Curso CSS y Diseño Web Responsive que corresponden a esta Unidad son: 
+Utilizar propiedades de transformación y efectos especiales.
+Aplicar propiedades de animación de la estructura.
