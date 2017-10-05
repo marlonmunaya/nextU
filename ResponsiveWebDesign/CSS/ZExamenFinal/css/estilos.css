@@ -14,7 +14,6 @@ body{
 	animation-name: principal;
 	animation-duration: 1s;
  	width: 900px;
- 	
 }
 header{
 	background: #5b7989;
@@ -25,51 +24,38 @@ header{
  	color: white;
  }
 
-h1{ text-shadow: 2px 2px #02010a; 
-	margin: 10px;}
+h1{
+ text-shadow: 2px 2px #02010a; 
+	}
 
-a{ 	 color: white;
+a{ 	
+ color: white;
 	font-size: 23px;
  }
 
-ul{ list-style-type: none;
-	-webkit-padding-start:0px;}
-
-
+ul{ 
+	list-style-type: none;
+	
+	}
 
 #central{
-	
 	background: #82c3a6;
-	padding: 1%;
 	text-align: center;
 	} 
 
 #navegador li{
-
   display: inline;
   margin: 0px 8px;
-  height: 100%;
-  
-	}
+  	}
 
  img{
  	box-shadow: 2px 2px #02010a;
  	width: 311px;
  }
 
-#central img{ width: 70%;  }
-#retrato img, .filtro img { width:  48%; }
-#paisajes img,{ width:  85%;}
-
-
-#secundaria{
-	background: #d5c75f;
-	display: -webkit-flex;
-	display: flex;
-	flex-flow: row wrap;
-	-webkit-flex-flow:row wrap;
-	width: 100%;
-	} 
+#central img{ width: 70%; margin: 3%; }
+#retrato img, .filtro2 img { width:  48%; margin: 3%;}
+#paisajes img,.filtro1 img{ width:  85%;margin: 3%;}
 
 #titulo{
 	padding-left: 20px;
@@ -80,15 +66,21 @@ ul{ list-style-type: none;
 	width: 40%;
 	padding: 10px;
 	}
-
+#secundaria{
+	background: #d5c75f;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow:row wrap;
+	width: 100%;
+	
+	} 
 
 #retrato,#paisajes{
-	width: 47%;
+	width: 50%;
 	text-align: center;
-	padding:1.5%;
-
+	
 }
-
 
 #retrato img:hover{ 
 
@@ -102,21 +94,31 @@ ul{ list-style-type: none;
 	animation-duration: 1s;
 	}
 
-.filtro{
-	width: 30.3%;
+.filtro1, .filtro2{
+	width: 33.3%;
 	text-align: center;
-	padding:1.5%;
+	
+}
+.imagenes div:nth-child(2n){
+	-webkit-filter: grayscale(100%);
+}
+.imagenes div:first-child{
+	filter: blur(10px);
+}
+.imagenes div:nth-child(3){
+	-webkit-filter: sepia(90%);
 }
 
 footer{
 	background: #C6d5c5;
 	display: flex;
+	border-radius:  0px 0px 10px 10px ;
+	
 }
 
 footer div{
 	width: 25%;
-	text-align: center;
-}
+	}
 
 
 
@@ -147,9 +149,20 @@ footer div{
 	
 	footer{
 		display: block;
+		
 	}
 	footer div{
 	width: 100%;
+	
+	}
+	ul{ 
+	list-style-type: none;
+	margin: 0px;
+	padding-top: 3%;
+	padding-bottom:3%;
+	}
+	h3{
+	margin: 0px;
 	}
 }
 
