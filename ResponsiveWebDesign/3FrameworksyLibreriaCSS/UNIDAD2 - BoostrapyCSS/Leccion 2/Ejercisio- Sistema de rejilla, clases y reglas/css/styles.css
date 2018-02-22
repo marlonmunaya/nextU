@@ -1,1 +1,45 @@
+.cinema-body{
 
+	background: #D0D0D0;
+
+}
+
+.navbar-fixed-top{
+	min-height: 10%;
+	background: #082D5E;
+	border: none;
+}
+
+.container-fluid{
+	margin-top: 64px;
+
+}
+
+.jumbotron{
+	background: #00678E;
+	min-height: 500px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	
+}
+
+.titulo-cartelera{
+	min-height: 45px;
+	background:  #082D5E;
+}
+
+.movies-row{
+	min-height: 350px;
+	background: #D63B3B;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.movies-column{
+	margin-top: 5px;
+	background: blue,
+	min-height 330px;
+	border: 1px dashed white;
+
+}
